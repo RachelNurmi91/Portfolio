@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Navigation from "./Components/Nav";
 import { Routes, Route } from "react-router-dom";
-import About from "./Components/About";
+import Home from "./Components";
 import Projects from "./Components/Projects";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Navigation />
       <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="*" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
     </div>

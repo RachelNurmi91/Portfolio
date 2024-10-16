@@ -3,7 +3,7 @@ import { Nav, NavItem, NavLink } from "reactstrap";
 
 const Navigation = () => {
   return (
-    <Nav className="d-flex justify-content-between">
+    <Nav className="nav">
       <div>Rachel Nurmi</div>
 
       <div className="d-flex justify-content-between flex-row">
